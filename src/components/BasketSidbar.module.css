@@ -1,0 +1,35 @@
+.container {
+  width: 200px;
+  background: #fff;
+  border-radius: 15px;
+  border: 2px dotted #fe5d42;
+  padding: 20px;
+}
+.container div {
+  margin: 20px 0;
+}
+.container p {
+  display: inline;
+  margin-top: 0;
+  padding: 0 10px;
+  font-size: 1.4rem;
+}
+.container svg {
+  color: #fe5d42;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.container span {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.468);
+}
+
+.container button{
+    background:#fe5d42;
+    border: none;
+    width: 100px;
+    padding: 10px;
+    border-radius: 15px;
+    color: #fff;
+}

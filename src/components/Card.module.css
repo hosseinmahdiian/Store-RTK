@@ -1,0 +1,164 @@
+.card {
+  width: 30%;
+  margin: 10px;
+  border: 2px dashed rgba(0, 0, 0, 0.143);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.card img {
+  width: 200px;
+  height: 230px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #fff;
+}
+.card h3 {
+  color: #fe4d42;
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card p {
+  color: #666;
+  margin: auto;
+  font-weight: bold;
+  padding: 20px;
+}
+.details {
+  width: 90%;
+  margin: 20px auto;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+}
+.details a {
+  font-size: 1.2rem;
+  background: #fff;
+  color: #fe4d42;
+  padding: 1px 2px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 300px !important;
+    margin: 10px auto;
+    padding: 0px;
+    flex-direction: row;
+    position: relative;
+  }
+
+  .card img {
+    width: 100px;
+    height: 130px;
+    margin: 10px !important;
+    padding: 5px;
+    margin-bottom: 20px;
+    background: #fff;
+  }
+  .card h3 {
+    width: 100px;
+    font-size: 1.1rem;
+    right: 40px;
+    top: 10px;
+    position: absolute;
+  }
+
+  .card > p {
+    right: 80px;
+    top: 80px;
+    position: absolute;
+  }
+  .details {
+    width: 150px;
+    right: 20px;
+    top: 100px;
+    position: absolute;
+  }
+  .details a {
+    font-size: 1.2rem;
+    background: #fff;
+    color: #fe4d42;
+    padding: 1px 2px;
+    border-radius: 5px;
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+    width: 160px;
+    
+  }
+
+  .card img {
+    width: 120px;
+    height: 150px;
+    
+  }
+  .card h3 {
+    text-align: center;
+    font-size: 1rem;
+    margin: 5px;
+  }
+
+  .card p {
+    padding: 0px;
+  }
+  .details {
+    margin: 10px auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 30%;
+    margin: 10px;
+    border: 2px dashed rgba(0, 0, 0, 0.143);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  
+  .card img {
+    width: 200px;
+    height: 230px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+  }
+  .card h3 {
+    color: #fe4d42;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .card p {
+    color: #666;
+    margin: auto;
+    font-weight: bold;
+    padding: 20px;
+  }
+  .details {
+    width: 90%;
+    margin: 20px auto;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+  }
+  .details a {
+    font-size: 1.2rem;
+    background: #fff;
+    color: #fe4d42;
+    padding: 1px 2px;
+    border-radius: 5px;
+    margin: 5px;
+  }
+}

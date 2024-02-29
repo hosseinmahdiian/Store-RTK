@@ -1,0 +1,31 @@
+
+
+  .action a {
+    font-size: 1.2rem;
+    background: #fff;
+    color: #fe4d42;
+    padding: 1px 2px;
+    border-radius: 5px;
+  }
+  
+  .action div {
+    display: flex;
+    align-items: center;
+  }
+  .action div button {
+    width: 25px;
+    height: 25px;
+    font-size: 1.2rem;
+    color: #fff;
+    background: #fe4d42;
+    padding: 1px 2px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+  }
+  
+  .action p {
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  

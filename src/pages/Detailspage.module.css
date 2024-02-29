@@ -1,0 +1,136 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.img {
+  width: 250px;
+  padding: 30px;
+  background: #fefefe;
+  border: 2px dotted #fe5d42;
+  border-radius: 20px;
+}
+.seccontainer {
+  width: 600px;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fe5d42;
+}
+
+.dscription {
+  margin: 50px 0;
+  width: 600px;
+  height: 150px;
+  text-align: justify;
+  font-size: 1.3rem;
+}
+
+.category svg,
+.price svg {
+  color: #fe5d42;
+  font-size: 1.2rem;
+}
+
+.category p,
+.price p {
+  color: #000000;
+  font-size: 1.2rem;
+  display: inline-block;
+  text-align: center;
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container a {
+  width: 150px;
+  height: 50px;
+  background: #fe5d42;
+  text-align: center;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container a svg,
+.container a span {
+  color: #fefefe;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 15px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    margin-top: 10px;
+  }
+
+  .img {
+    width: 200px;
+  }
+  .seccontainer {
+    width: 450px;
+  }
+
+  .dscription {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    display: inline;
+    margin-top: 10px;
+  }
+  .divImg {
+    margin: 10px auto !important;
+    width: fit-content;
+    margin: auto;
+  }
+
+  .img {
+    width: 200px;
+    padding: 10px;
+  }
+  .seccontainer {
+    width: 375px;
+    text-align: center;
+    height: fit-content;
+  }
+
+  .dscription {
+    margin: 20px 0;
+    width: 375px;
+    height: fit-content;
+  }
+
+  .category p,
+  .price p {
+    margin: 0px;
+  }
+
+  .container a {
+    width: 150px;
+    height: 50px;
+    margin:10px auto;
+    background: #fe5d42;
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .container a svg,
+  .container a span {
+    color: #fefefe;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 15px 0;
+  }
+}
